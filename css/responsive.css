@@ -1,0 +1,450 @@
+@media (min-width: 1024px) {
+  .trigram {
+    display: none;
+  }
+
+  .top-navigation a:hover {
+    color: #2476ff;
+  }
+
+  .top-navigation button:hover {
+    color: #2476ff;
+    background-color: #ffffff;
+  }
+
+  .section-button button:hover {
+    background-color: #ffffff;
+    color: #2476ff;
+  }
+
+  .section-button i:hover {
+    background-color: #2476ff;
+    color: #ffffff;
+  }
+
+  .pricing-button button:hover {
+    background-color: #ffffff;
+    color: #2476ff;
+  }
+
+  .pricing-button i:hover {
+    background-color: #2476ff;
+    color: #ffffff;
+  }
+
+  .form-submit button:hover {
+    background-color: #ffffff;
+    color: #2476ff;
+  }
+
+  .price-info:hover {
+    box-shadow: 0px 10px 20px 0px #00000026;
+  }
+
+  .footer-address a:hover {
+    color: #677788;
+  }
+
+  .footer-link-wrapper li:hover {
+    color: #2476ff;
+  }
+
+  .form-privacy-policy-links a:hover {
+    color: #677788;
+  }
+
+  .google-img, .google-ads-img, .calendar-img {
+    animation: appear 2s 1 forwards;
+  }
+
+  @keyframes appear {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opactiy: 50%;
+    }
+    100% {
+        opactiy: 100%;
+    }
+  }
+
+  .atlassian-img, .asana-img, .paypal-img, .weave-img {
+    animation: slide-in 1s 1 linear;
+  }
+
+  @keyframes slide-in {
+    0% {
+        transform: translate(200px, 100px)
+    }
+  }
+}
+
+/* TABLET DISPLAY OPTIONS */
+@media (min-width: 768px) AND (max-width: 1023px) {
+  .trigram {
+    display: contents;
+  }
+
+  .top-navigation ul {
+    display: none;
+  }
+
+  .logo-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-info {
+    width: 100%;
+    text-align: center;
+    height: 305px;
+  }
+
+  .section-info h1 {
+    width: 100%;
+  }
+
+  .logo-background-img {
+    height: 305px;
+  }
+
+  .logo-container {
+    margin-top: 0px;
+    align-content: flex-start;
+    width: 100%;
+    top: -200px;
+    left: 0px;
+  }
+
+  .google-img {
+    position: absolute;
+    left: 110px;
+    top: 0px;
+  }
+
+  .google-ads-img {
+    position: absolute;
+    left: 230px;
+    top: 209px;
+  }
+
+  .atlassian-img {
+    position: absolute;
+    left: 287px;
+    top: 0px;
+  }
+
+  .paypal-img {
+    position: absolute;
+    left: 112px;
+    top: 99px;
+  }
+
+  .asana-img {
+    position: absolute;
+    left: 533px;
+    top: 0px;
+  }
+
+  .weave-img {
+    position: absolute;
+    left: 414px;
+    top: 99px;
+  }
+
+  .calendar-img {
+    position: absolute;
+    left: 517px;
+    top: 229px;
+  }
+
+  .why-section-info {
+    margin-top: 100px;
+  }
+
+  .price-info-group {
+    flex-direction: column;
+    padding: 0 44;
+    margin-bottom: 0px;
+  }
+
+  .price-info {
+    box-shadow: 0px 10px 20px 0px #00000026;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .price-info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-image-group {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .price-image-content {
+    width: 335px;
+  }
+
+  .hire-us-content {
+    flex-direction: column;
+    height: 984px;
+    padding: 60px;
+    align-items: center;
+  }
+
+  .hire-us-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 0;
+    justify-content: space-between;
+  }
+
+  .hire-us-info-content {
+    width: 396px;
+    padding: 40px 0px 20px 0px;
+  }
+
+  .hire-us-profile {
+    padding-top: 40px;
+  }
+
+  .hire-us-form {
+    width: 100%;
+  }
+
+  .form-dropdown button {
+    width: 284px;
+  }
+
+  .footer-address {
+    width: 251px;
+  }
+
+  .footer-link-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 49px;
+    width: 417px;
+  }
+}
+
+/* PHONE DISPLAY OPTIONS */
+@media (max-width: 767px) {
+  .trigram {
+    display: contents;
+  }
+
+  .top-navigation ul {
+    display: none;
+  }
+
+  .logo-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-info {
+    width: 100%;
+    text-align: center;
+    height: 235px;
+  }
+
+  .section-info h1 {
+    width: 100%;
+  }
+
+  .logo-background-img {
+    height: 450px;
+  }
+
+  .logo-container {
+    width: 100%;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .google-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  .google-ads-img {
+    position: absolute;
+    left: 106px;
+    top: 209px;
+  }
+
+  .atlassian-img {
+    position: absolute;
+    left: 114px;
+    top: 0px;
+  }
+
+  .paypal-img {
+    position: absolute;
+    left: 0px;
+    top: 99px;
+  }
+
+  .asana-img {
+    position: absolute;
+    left: 248px;
+    top: 0px;
+  }
+
+  .weave-img {
+    position: absolute;
+    left: 184px;
+    top: 99px;
+  }
+
+  .calendar-img {
+    position: absolute;
+    left: 239px;
+    top: 219px;
+  }
+
+  .why-section-info {
+    margin-top: 175px;
+  }
+
+  .why-section-header {
+    width: 100%;
+  }
+
+  .custom-list {
+    gap: 17px;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .custom-list li {
+    text-align: left;
+    padding-top: 50px;
+  }
+
+  .custom-list li::before {
+    left: -50px;
+    top: 50%;
+  }
+
+  .custom-list li::after {
+    left: -50px;
+    top: 55px;
+  }
+
+  .custom-list::before {
+    display: none;
+  }
+
+  .pricing-content {
+    margin-top: 40px;
+  }
+
+  .price-info-group {
+    flex-direction: column;
+    padding: 0 44;
+    margin-bottom: 0px;
+  }
+
+  .price-info {
+    box-shadow: 0px 10px 20px 0px #00000026;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .price-info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-image-group {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .price-image-content {
+    width: 328px;
+  }
+
+  .hire-us-content {
+    flex-direction: column;
+    height: 1337px;
+    padding: 15px;
+    align-items: center;
+  }
+
+  .hire-us-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .hire-us-info-content {
+    width: 396px;
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+  }
+
+  .hire-us-profile {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .hire-us-form {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .form-name {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-name input {
+    width: 100%;
+  }
+
+  .form-dropdown {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-dropdown button {
+    width: 100%;
+  }
+
+  .form-privacy-policy-links {
+    flex-direction: column;
+    border-bottom: 0.1rem dashed;
+    width: 131px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-link-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 328px;
+    text-align: center;
+  }
+}

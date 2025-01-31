@@ -143,7 +143,7 @@ body {
 
 .section-button i {
   color: #2476ff;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -153,8 +153,6 @@ body {
 
 .logo-container {
   display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
   width: 50%;
   gap: 10px;
   position: relative;
@@ -165,7 +163,7 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,7 +174,7 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,7 +206,7 @@ body {
 }
 
 .paypal-img {
-  position: absolute; 
+  position: absolute;
   left: 44px;
   top: 172px;
 }
@@ -239,7 +237,6 @@ body {
   gap: 10px;
   padding: auto 30px 80px 30px;
   align-items: center;
-  position: relative;
 }
 
 .why-section-header {
@@ -266,55 +263,55 @@ body {
 }
 
 .custom-list {
-  list-style: none; 
-  display: flex; 
+  list-style: none;
+  display: flex;
   gap: 100px;
   position: relative;
 }
 
 .custom-list li {
   position: relative;
-  text-align: center; 
-  padding-top: 75px; 
+  text-align: center;
+  padding-top: 75px;
   white-space: nowrap;
 }
 
 .custom-list li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;
   transform: translateX(-50%);
   width: 50px;
-  height: 50px; 
-  border: none; 
+  height: 50px;
+  border: none;
   border-radius: 50%;
-  background-color: #ECF2FF;
-  z-index: 2; 
+  background-color: #ecf2ff;
+  z-index: 2;
 }
 
 .custom-list li::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
-  top: 22.5px; 
+  top: 22.5px;
   transform: translateX(-50%);
-  width: 6px; 
-  height: 6px; 
-  background-color: #0066FF; 
-  border-radius: 50%; 
-  z-index: 3; 
+  width: 6px;
+  height: 6px;
+  background-color: #0066ff;
+  border-radius: 50%;
+  z-index: 3;
 }
 
 .custom-list::before {
-  content: '';
+  content: "";
   position: absolute;
-  top: 25px; 
+  top: 25px;
   left: 50px;
   width: 85%;
-  height: 1px; 
-  background-color: #E6E9F2; 
-  z-index: 1; 
+  height: 1px;
+  background-color: #e6e9f2;
+  z-index: 1;
 }
 
 /* PRICTING SECTION */
@@ -362,7 +359,6 @@ body {
   height: 452px;
   padding: 40px;
   border: 1px solid #e2e2e2;
-  box-shadow: 0px 10px 20px 0px #00000026;
   align-content: space-between;
 }
 
@@ -411,7 +407,7 @@ body {
 
 .pricing-button i {
   color: #2476ff;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -462,10 +458,9 @@ body {
 /* HIRE US SECTION */
 
 .hire-us-content {
-  width: Fill (1, 024px) px;
+  width: 100%;
   height: 708px;
   padding: 30px 30px 30px 30px;
-  gap: 0px;
   opacity: 0px;
   background-color: #20335b;
   display: flex;
@@ -707,8 +702,8 @@ body {
   margin-left: 9px;
   width: 55px;
   height: 14px;
-  background-color: #2576FF;
-  color: #FFFFFF;
+  background-color: #2576ff;
+  color: #ffffff;
   border-radius: 3px;
   font-size: 8px;
   padding: 2px 4px;
